@@ -4,7 +4,7 @@ import type { MetadataRoute } from "next";
  * Domaine de production du site Le 203.
  * Doit rester aligné avec metadataBase / canonical / openGraph.url dans app/layout.tsx.
  */
-const SITE_URL = "https://le-203-avignon.vercel.app";
+const SITE_URL = "https://le-203-avignon-pap.vercel.app";
 
 /**
  * Sitemap — route générée automatiquement par Next.js sur /sitemap.xml

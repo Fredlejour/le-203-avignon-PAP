@@ -1,7 +1,7 @@
 /**
  * Couche de tracking GA4 centralisée pour Le 203.
  *
- * La balise GA4 (G-T3PYCM0WTS) est déjà chargée une seule fois dans
+ * La balise GA4 (G-669280PEF1) est déjà chargée une seule fois dans
  * app/layout.tsx. Ce module ne charge AUCUN script supplémentaire :
  * il se contente d'envoyer des événements via window.gtag lorsqu'il existe.
  *

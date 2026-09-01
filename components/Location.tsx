@@ -67,7 +67,7 @@ export default function Location() {
           >
             <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden relative group">
               <img
-                src="/images/facade 203.webp"
+                src="/images/facade-203.webp"
                 alt="Façade du 203 — locaux professionnels à Avignon-Montfavet"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

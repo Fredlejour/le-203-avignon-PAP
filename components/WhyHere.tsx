@@ -144,7 +144,7 @@ export default function WhyHere() {
             {/* Background image (subtile) */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/facade 203.webp"
+              src="/images/facade-203.webp"
               alt=""
               aria-hidden="true"
               className="absolute inset-0 w-full h-full object-cover opacity-[0.12]"

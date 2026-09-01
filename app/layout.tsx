@@ -4,10 +4,10 @@ import { Analytics } from "@vercel/analytics/next";
 import ScrollTracker from "@/components/ScrollTracker";
 import "./globals.css";
 
-const GA_MEASUREMENT_ID = "G-T3PYCM0WTS";
+const GA_MEASUREMENT_ID = "G-669280PEF1";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://le-203-avignon.vercel.app"),
+  metadataBase: new URL("https://le-203-avignon-pap.vercel.app"),
   title: "Le 203 — Centre professionnel pluridisciplinaire à vendre",
   description:
     "Achetez un local professionnel de 193 m² déjà aménagé et équipé à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     title: "Le 203 — Centre professionnel pluridisciplinaire à vendre",
     description:
       "193 m² professionnels aménagés et équipés à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
-    url: "https://le-203-avignon.vercel.app",
+    url: "https://le-203-avignon-pap.vercel.app/",
     siteName: "Le 203",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "/images/facade 203.webp",
+        url: "/images/facade-203.webp",
         width: 1729,
         height: 910,
         alt: "Le 203 — Centre professionnel pluridisciplinaire à Avignon-Montfavet",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Le 203 — Centre professionnel pluridisciplinaire à vendre",
     description:
       "193 m² professionnels aménagés et équipés à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
-    images: ["/images/facade 203.webp"],
+    images: ["/images/facade-203.webp"],
   },
   robots: {
     index: true,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     google: "S7ZRsc_rOWU3SkM_VmcxTfq6ri-gylArkquqgjoYIJg",
   },
   alternates: {
-    canonical: "https://le-203-avignon.vercel.app",
+    canonical: "https://le-203-avignon-pap.vercel.app/",
   },
   icons: {
     icon: "/icon.png",
@@ -60,8 +60,8 @@ const jsonLd = {
   name: "Le 203 — Centre professionnel pluridisciplinaire à vendre",
   description:
     "Achetez un local professionnel de 193 m² déjà aménagé et équipé à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
-  url: "https://le-203-avignon.vercel.app",
-  image: "/images/facade 203.webp",
+  url: "https://le-203-avignon-pap.vercel.app/",
+  image: "/images/facade-203.webp",
   address: {
     "@type": "PostalAddress",
     streetAddress: "203 Cours Cardinal Bertrand de Montfavet",
@@ -116,7 +116,7 @@ export default function RootLayout({
           {`
             (function(h,o,t,j,a,r){
               h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:6410555,hjsv:6};
+              h._hjSettings={hjid:6772019,hjsv:6};
               a=o.getElementsByTagName('head')[0];
               r=o.createElement('script');r.async=1;
               r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
