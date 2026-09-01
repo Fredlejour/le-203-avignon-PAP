@@ -25,11 +25,11 @@ export default function WhySelling() {
             <div className="gold-divider" />
           </div>
           <p className="text-gold-600 text-xs font-bold tracking-[0.2em] uppercase mb-4">
-            Pourquoi le 203 change de main
+            Pourquoi je transmets le 203
           </p>
           <h2 className="section-title">
             Une transmission,{" "}
-            <span className="text-gold-500">non une cession par défaut</span>
+            <span className="text-gold-500">pour ouvrir un nouveau chapitre</span>
           </h2>
         </div>
 
@@ -49,39 +49,41 @@ export default function WhySelling() {
               <p className="font-serif text-lg md:text-xl font-semibold text-navy-800 leading-tight">
                 Jean-Charles Orozco
               </p>
-              <p className="text-navy-300 text-sm mt-0.5">Fondateur du lieu</p>
+              <p className="text-navy-300 text-sm mt-0.5">Propriétaire du 203</p>
             </div>
           </div>
 
           <div className="space-y-5 text-navy-600 text-base md:text-lg leading-relaxed text-left">
             <p>
               Après plusieurs années consacrées à concevoir, aménager, équiper
-              et faire vivre ces 193&nbsp;m², Jean-Charles Orozco a rejoint sa
-              famille installée en Amérique du Sud, où il développe désormais de
-              nouveaux projets autour de l&apos;intelligence artificielle et de
-              la prévention du déclin cognitif.
+              et faire vivre ces 193 m², j’ai rejoint ma famille installée en
+              Amérique du Sud, où je développe aujourd’hui de nouveaux projets
+              autour de l’intelligence artificielle et de la prévention du
+              déclin cognitif.
             </p>
             <p>
-              Son départ crée aujourd&apos;hui l&apos;opportunité de
-              transmettre un lieu professionnel déjà constitué à un nouvel
-              acquéreur.
+              C’est cette nouvelle étape de ma vie qui m’amène aujourd’hui à
+              transmettre Le 203.
             </p>
             <p>
-              Celui-ci reprend un actif achevé, équipé et accessible, situé à
-              proximité immédiate d&apos;Agroparc, avec la liberté d&apos;y
-              installer sa propre activité, d&apos;en faire évoluer
-              l&apos;usage et d&apos;exploiter les espaces disponibles selon son
-              propre projet.
+              Je souhaite désormais permettre à un nouvel acquéreur de reprendre
+              un lieu professionnel déjà constitué, aménagé et équipé, à
+              proximité immédiate d’Agroparc, et d’y développer son propre
+              projet.
+            </p>
+            <p>
+              Le 203 peut ainsi accueillir une nouvelle activité, évoluer selon
+              les besoins de son futur propriétaire et lui permettre
+              d’exploiter les espaces disponibles selon son propre modèle.
             </p>
           </div>
 
           {/* Phrase de conclusion mise en valeur */}
           <div className="mt-9 pt-8 border-t border-warm-200">
             <p className="font-serif text-xl md:text-2xl font-semibold text-navy-800 leading-snug text-center">
-              Le lieu ne change pas de vocation.
+              J’ai construit et fait évoluer ce lieu.
               <br />
-              Il change simplement{" "}
-              <span className="text-gold-600">de mains</span>.
+              À son futur propriétaire d’en écrire la suite.
             </p>
           </div>
         </div>

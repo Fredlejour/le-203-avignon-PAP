@@ -37,22 +37,16 @@ export default function PricingBlock() {
         >
           <div className="rounded-2xl bg-navy-900 p-8 md:p-10 text-white shadow-xl text-center">
             <p className="text-gold-400 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-              Prix honoraires inclus
+              Prix de vente direct
             </p>
 
             <p className="font-serif text-4xl md:text-5xl text-gold-400 font-semibold leading-tight mb-1">
               288 660 €
             </p>
-            <p className="text-white/80 text-base mb-6">honoraires inclus</p>
-
-            <div className="border-t border-white/10 my-6 w-full" />
-
-            <p className="text-white/80 text-base mb-6">
-              <span className="font-serif text-xl font-medium text-white">271 660 €</span> net vendeur + 17 000 € d&apos;honoraires
-            </p>
+            <p className="text-white/80 text-base mb-6">vente directe propriétaire</p>
 
             <p className="text-gold-400/90 text-base">
-              ≈ 1 408 €/m² net vendeur
+              ≈ 1 496 €/m² pour 193 m²
             </p>
           </div>
         </div>

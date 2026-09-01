@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import AgentIntro from "@/components/AgentIntro";
+import ContactIntro from "@/components/ContactIntro";
 import Hero from "@/components/Hero";
 import Concept from "@/components/Concept";
 import KeyFigures from "@/components/KeyFigures";
@@ -17,7 +17,7 @@ import AcquisitionModes from "@/components/AcquisitionModes";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import ContactForm from "@/components/ContactForm";
-import AgentContact from "@/components/AgentContact";
+import ContactInfo from "@/components/ContactInfo";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 
@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <AgentIntro />
+        <ContactIntro />
         <Hero />
         <Concept />
         <KeyFigures />
@@ -44,7 +44,7 @@ export default function Home() {
         <FAQ />
         <FinalCTA />
         <ContactForm />
-        <AgentContact />
+        <ContactInfo />
       </main>
       <Footer />
       <MobileCTA />

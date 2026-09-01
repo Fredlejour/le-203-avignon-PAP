@@ -8,7 +8,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "Quel est le prix exact du bien ?",
-    a: "Le prix net vendeur est de 271 660 €, soit environ 1 408 €/m² pour 193 m². Honoraires inclus : 288 660 € (17 000 € d'honoraires). Les conditions de vente et les frais estimés sont détaillés dans le dossier d'acquisition.",
+    a: "Le prix de vente direct est de 288 660 €, soit environ 1 496 €/m² pour 193 m². Les conditions de vente et les frais estimés sont détaillés dans le dossier d'acquisition.",
     cta: { label: "Recevoir le dossier", href: "#contact-form" },
   },
   {
@@ -36,17 +36,17 @@ const faqs = [
   },
   {
     q: "Quels sont les modes d'acquisition possibles ?",
-    a: "Deux voies peuvent être envisagées : une acquisition immobilière classique, ou l'étude d'une acquisition des parts de la SCI propriétaire des locaux. Cette seconde option doit faire l'objet d'un audit juridique, fiscal, comptable et bancaire avec vos conseils.",
+    a: "Deux voies peuvent être envisagées : une acquisition immobilière classique, ou l'étude d'une acquisition des parts de la structure propriétaire des locaux. Cette seconde option doit faire l'objet d'un audit juridique, fiscal, comptable et bancaire avec vos conseils.",
     cta: { label: "Voir les modes d'acquisition", href: "#reprise-sci" },
   },
   {
-    q: "Acquérir les parts de la SCI, cela signifie-t-il que le bien coûte 110 100 € ?",
-    a: "Non. Les 110 100 € correspondent à l'acquisition des parts sociales (100 €) et à la reprise du compte courant d'associé (110 000 €). La valeur immobilière du bien reste de 271 660 € net vendeur. La SCI porte par ailleurs un financement immobilier existant dont le capital restant dû est d'environ 161 000 €, sous réserve des validations et accords nécessaires.",
+    q: "Acquérir les parts de la structure, cela signifie-t-il que le bien coûte 127 660 € ?",
+    a: "Non. Les 127 660 € correspondent à l'acquisition des parts sociales (100 €) et à la reprise du compte courant d'associé (127 560 €). La valeur immobilière du bien reste de 288 660 € prix de vente direct. La structure porte par ailleurs un financement immobilier existant dont le capital restant dû est d'environ 161 000 €, sous réserve des validations et accords nécessaires.",
     cta: { label: "Voir le mécanisme de reprise", href: "#reprise-sci" },
   },
   {
     q: "Le financement immobilier existant est-il automatiquement transféré ?",
-    a: "Non. Le traitement du financement existant porté par la SCI dépend de l'accord de l'établissement bancaire, d'une due diligence et des conditions de reprise. Aucune reprise n'est automatique ou garantie.",
+    a: "Non. Le traitement du financement existant porté par la structure dépend de l'accord de l'établissement bancaire, d'une due diligence et des conditions de reprise. Aucune reprise n'est automatique ou garantie.",
   },
   {
     q: "Peut-on financer cet achat par emprunt ?",

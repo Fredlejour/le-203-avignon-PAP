@@ -10,7 +10,7 @@ const pillars = [
     title: "L'immobilier",
     image: "/images/nouvelle facade 203.webp",
     alt: "Entrée du centre professionnel Le 203",
-    desc: "193 m² à Avignon-Montfavet, déjà aménagés et accessibles au public. Prix net vendeur de 271 660 €, soit environ 1 408 €/m².",
+    desc: "193 m² à Avignon-Montfavet, déjà aménagés et accessibles au public. Prix de vente direct : 288 660 €, soit environ 1 496 €/m².",
   },
   {
     icon: Boxes,
@@ -31,7 +31,7 @@ const pillars = [
     title: "La structure existante",
     image: "/images/salle-reunion.webp",
     alt: "Salle de réunion du centre Le 203",
-    desc: "Le bien appartient à une SCI propriétaire. Deux voies d'acquisition peuvent être étudiées, sous réserve d'audit juridique et fiscal.",
+    desc: "Le bien appartient à une structure propriétaire. Deux voies d'acquisition peuvent être étudiées, sous réserve d'audit juridique et fiscal.",
   },
 ];
 

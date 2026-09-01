@@ -9,7 +9,7 @@ import { Tag, Crosshair, LineChart, Euro, Info } from "lucide-react";
 const MIN = 1100;
 const MEDIAN = 2073;
 const MAX = 2 * MEDIAN - MIN; // 3046
-const LE203 = 1408;
+const LE203 = 1496;
 
 const GREEN_END = 1762; // fin de la zone « prix très attractif »
 const AMBER_END = 2 * MEDIAN - GREEN_END; // 2384, fin de la fourchette marché
@@ -60,8 +60,8 @@ const cards = [
   {
     icon: Tag,
     label: "LE 203",
-    value: "1 408 €/m²",
-    caption: "Net vendeur",
+    value: "1 496 €/m²",
+    caption: "Prix de vente direct",
     badge: "Très attractif",
     badgeClass: "bg-emerald-50 text-emerald-700 border-emerald-200",
     valueClass: "text-navy-800",
@@ -80,7 +80,7 @@ const cards = [
   {
     icon: LineChart,
     label: "POSITIONNEMENT",
-    value: "-32 %",
+    value: "-28 %",
     caption: "vs. référence marché",
     badge: "Avantage significatif",
     badgeClass: "bg-emerald-50 text-emerald-700 border-emerald-200",
@@ -90,7 +90,7 @@ const cards = [
   {
     icon: Euro,
     label: "ÉCART EN VALEUR",
-    value: "-128 000 €",
+    value: "≈ -111 000 €",
     caption: "d'économie vs. marché",
     badge: "Sur 193 m²",
     badgeClass: "bg-warm-100 text-navy-600 border-warm-300",
@@ -118,7 +118,7 @@ export default function PriceGauge() {
         viewBox="0 0 820 380"
         className="w-full h-auto"
         role="img"
-        aria-label="Jauge de positionnement : LE 203 à 1 408 €/m² net vendeur, contre une référence marché médiane de 2 073 €/m², soit -32 %."
+        aria-label="Jauge de positionnement : LE 203 à 1 496 €/m² prix de vente direct, contre une référence marché médiane de 2 073 €/m², soit -28 %."
       >
         {/* Intitulés de zones */}
         <text
@@ -219,7 +219,7 @@ export default function PriceGauge() {
           fontWeight="700"
           fill={COLORS.greenText}
         >
-          1 408 €/m²
+          1 496 €/m²
         </text>
         <rect
           x={NEEDLE_TIP.x - 42}
@@ -247,7 +247,7 @@ export default function PriceGauge() {
           fontSize="13"
           fill={COLORS.slate}
         >
-          hors honoraires
+          Prix de vente direct
         </text>
 
         {/* Repère médiane marché */}

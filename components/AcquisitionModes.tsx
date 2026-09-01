@@ -18,7 +18,7 @@ const modes: Mode[] = [
     title: "Acquisition immobilière classique",
     items: [
       "Frais de notaire applicables",
-      "Structure d'acquisition libre (personne physique, SCI, société)",
+      "Structure d'acquisition libre (personne physique, société)",
       "Solution simple et connue des banques",
     ],
   },
@@ -139,8 +139,8 @@ export default function AcquisitionModes() {
               l&apos;objet d&apos;une étude personnalisée.
             </p>
             <p>
-              L&apos;étude d&apos;une acquisition des parts de la société
-              propriétaire, ou de la SCI propriétaire des locaux, nécessite en
+              L&apos;étude d&apos;une acquisition des parts de la structure
+              propriétaire des locaux, nécessite en
               particulier un audit juridique, fiscal, comptable et bancaire,
               mené avec les conseils de l&apos;acquéreur (avocat, notaire,
               expert-comptable, banque).

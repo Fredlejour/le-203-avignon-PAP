@@ -37,12 +37,12 @@ export default function AcquisitionSCI() {
             possède ?
           </h2>
           <p className="section-subtitle mx-auto">
-            Les locaux sont aujourd&apos;hui détenus par une SCI, qui porte par
-            ailleurs un financement immobilier existant. Une modalité
-            alternative d&apos;acquisition peut donc être étudiée : celle des
-            parts de la société propriétaire. Données indicatives, sous réserve
-            des validations et accords nécessaires, à examiner avec vos
-            conseils.
+            Le 203 est actuellement détenu par une structure propriétaire qui
+            porte également un financement immobilier existant. Deux modalités
+            d&apos;acquisition peuvent ainsi être étudiées : acquérir
+            directement l&apos;immeuble, ou reprendre les parts de la structure
+            qui le possède. Ces données sont indicatives et restent soumises aux
+            validations juridiques, bancaires et fiscales nécessaires.
           </p>
         </div>
 
@@ -54,29 +54,28 @@ export default function AcquisitionSCI() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <p className="font-serif text-4xl md:text-6xl font-semibold text-white leading-tight mb-2">
-              271 660 €{" "}
+              288 660 €{" "}
               <span className="font-sans text-2xl md:text-4xl font-normal text-white/80">
-                d&apos;immobilier.
+                Prix de vente direct de l&apos;immeuble.
               </span>
             </p>
-            <p className="font-serif text-4xl md:text-6xl font-semibold text-gold-400 leading-tight mb-6">
-              110 100 €
+            <p
+              className="font-serif text-4xl md:text-6xl font-semibold text-gold-400 leading-tight mb-6"
+            >
+              ≈ 127 660 €*
             </p>
             <p className="text-lg md:text-2xl text-white/80 font-light leading-snug mb-6">
-              pour acquérir les parts et reprendre le compte courant de la SCI
-              propriétaire.
+              pour acquérir les parts et reprendre le compte courant
+              d&apos;associé.
             </p>
 
             <p className="text-white/70 text-sm md:text-base leading-relaxed mb-4">
-              La SCI porte par ailleurs un financement immobilier existant dont
-              le capital restant dû est d&apos;environ 161 000 €, sous réserve
-              des validations et accords nécessaires.
+              La structure conserve par ailleurs un financement immobilier dont
+              le capital restant dû est actuellement estimé à environ 161 000 €.
             </p>
             <p className="text-white/60 text-xs md:text-sm leading-relaxed max-w-3xl mx-auto">
-              Ces 110 100 € ne constituent ni le prix du bien, ni sa valeur
-              immobilière : ils correspondent à l&apos;acquisition des parts
-              sociales et à la reprise du compte courant d&apos;associé. Données
-              indicatives, sous réserve de validation.
+              * Montant indicatif calculé sur la base du capital restant dû
+              estimé. Il sera ajusté au jour de l&apos;opération.
             </p>
           </div>
         </div>
@@ -88,10 +87,10 @@ export default function AcquisitionSCI() {
           }`}
         >
           <p className="font-serif text-2xl md:text-3xl font-semibold text-navy-800">
-            271 660 €
+            288 660 €
           </p>
           <p className="text-navy-300 text-sm md:text-base">
-            net vendeur — soit environ 1 408 €/m² pour 193 m²
+            Prix de vente direct — soit environ 1 496 €/m² pour 193 m²
           </p>
         </div>
 
@@ -120,17 +119,9 @@ export default function AcquisitionSCI() {
 
             <div className="space-y-4 mt-auto">
               <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
-                <span className="text-navy-600 text-sm">Valeur du bien</span>
+                <span className="text-navy-600 text-sm">Prix de vente</span>
                 <span className="text-navy-800 font-semibold font-serif text-lg">
-                  271 660 €
-                </span>
-              </div>
-              <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
-                <span className="text-navy-600 text-sm">
-                  Honoraires Lejour Consulting
-                </span>
-                <span className="text-navy-800 font-semibold text-sm">
-                  17 000 €
+                  288 660 €
                 </span>
               </div>
               <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
@@ -138,7 +129,7 @@ export default function AcquisitionSCI() {
                   Frais d&apos;acquisition estimés
                 </span>
                 <span className="text-navy-800 font-semibold text-sm">
-                  ≈ 21 680 €
+                  ≈ 23 037 €
                 </span>
               </div>
               <div className="flex items-baseline justify-between pt-1">
@@ -146,7 +137,7 @@ export default function AcquisitionSCI() {
                   Coût global indicatif
                 </span>
                 <span className="text-gold-600 font-semibold font-serif text-2xl">
-                  ≈ 310 340 €
+                  ≈ 311 697 €
                 </span>
               </div>
             </div>
@@ -187,7 +178,7 @@ export default function AcquisitionSCI() {
                   Reprise du compte courant d&apos;associé
                 </span>
                 <span className="text-navy-800 font-semibold text-sm">
-                  110 000 €
+                  ≈ 127 560 €
                 </span>
               </div>
               <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
@@ -195,30 +186,22 @@ export default function AcquisitionSCI() {
                   Total parts + compte courant
                 </span>
                 <span className="text-gold-600 font-semibold font-serif text-xl">
-                  110 100 €
+                  ≈ 127 660 €
                 </span>
               </div>
               <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
                 <span className="text-navy-600 text-sm">
-                  Honoraires Lejour Consulting
+                  Frais juridiques / audit éventuels
                 </span>
                 <span className="text-navy-800 font-semibold text-sm">
-                  17 000 €
-                </span>
-              </div>
-              <div className="flex items-baseline justify-between border-b border-warm-200 pb-3">
-                <span className="text-navy-600 text-sm">
-                  Frais avocat / audit estimatifs
-                </span>
-                <span className="text-navy-800 font-semibold text-sm">
-                  ≈ 10 084 €
+                  à la charge de l&apos;acquéreur
                 </span>
               </div>
 
               {/* Navy box: existing financing */}
               <div className="mt-4 rounded-xl bg-navy-800 text-white p-5">
                 <p className="text-white/60 text-xs uppercase tracking-wide mb-2">
-                  Par ailleurs, porté par la société
+                  Par ailleurs, porté par la structure
                 </p>
                 <div className="flex items-baseline justify-between mb-2">
                   <span className="text-white/80 text-sm">
@@ -229,8 +212,7 @@ export default function AcquisitionSCI() {
                   </span>
                 </div>
                 <p className="text-white/60 text-xs leading-relaxed">
-                  Ce montant n&apos;est pas un poste de décaissement à
-                  l&apos;entrée : il reste une dette portée par la SCI.
+                  Ce montant n&apos;est pas un décaissement supplémentaire au vendeur : il correspond à une dette restant portée par la structure, sous réserve de l&apos;accord de l&apos;établissement bancaire.
                 </p>
               </div>
 
@@ -272,13 +254,13 @@ export default function AcquisitionSCI() {
                 Parts sociales + compte courant d&apos;associé
               </span>
               <span className="font-serif text-xl font-semibold text-gold-600">
-                110 100 €
+                ≈ 127 660 €
               </span>
             </div>
             <div className="w-full bg-warm-200 rounded-lg h-12 overflow-hidden">
               <div
                 className="h-full bg-gold-500 rounded-r-lg transition-all duration-1000 ease-out"
-                style={{ width: inView ? "68%" : "0%" }}
+                style={{ width: inView ? "79%" : "0%" }}
               />
             </div>
           </div>
@@ -287,7 +269,7 @@ export default function AcquisitionSCI() {
           <div className="mb-8">
             <div className="flex items-center justify-between mb-2">
               <span className="text-sm font-semibold text-navy-600">
-                Financement immobilier existant porté par la SCI
+                Financement immobilier existant porté par la structure
               </span>
               <span className="font-serif text-xl font-semibold text-navy-800">
                 ≈ 161 000 €
@@ -303,9 +285,10 @@ export default function AcquisitionSCI() {
 
           <div className="bg-warm-100 border border-warm-300 rounded-lg p-4 text-center">
             <p className="text-navy-300 text-sm leading-relaxed">
-              Le capital restant dû reste une dette portée par la société. Son
-              traitement dépend de l&apos;accord de l&apos;établissement
-              bancaire et des conditions de reprise de la SCI.
+              ≈ 127 660 € de décaissement vendeur + ≈ 161 000 € de financement
+              restant porté par la structure = ≈ 288 660 € de valeur économique
+              de référence. Cette addition n&apos;est pas un prix juridiquement
+              définitif.
             </p>
           </div>
         </div>
@@ -323,8 +306,8 @@ export default function AcquisitionSCI() {
             {[
               {
                 icon: Building2,
-                title: "Une société détient déjà l'actif",
-                text: "Les locaux sont détenus par une SCI.",
+                title: "Une structure détient déjà l'actif",
+                text: "Les locaux sont détenus par une structure propriétaire.",
               },
               {
                 icon: Banknote,
@@ -383,7 +366,7 @@ export default function AcquisitionSCI() {
                 <p className="text-navy-600 text-sm md:text-[15px] leading-relaxed">
                   Cette voie n&apos;est pas moins chère : elle est de nature
                   différente. Le financement existant reste une dette portée par
-                  la société. L&apos;opération nécessite une due diligence
+                  la structure. L&apos;opération nécessite une due diligence
                   approfondie et l&apos;accord de l&apos;établissement
                   bancaire.
                 </p>
@@ -392,6 +375,13 @@ export default function AcquisitionSCI() {
                   n&apos;est formulée. Les montants sont indicatifs, non
                   contractuels, et doivent faire l&apos;objet d&apos;une
                   validation par les conseils de l&apos;acquéreur.
+                </p>
+                <p className="text-navy-400 text-xs leading-relaxed mt-2">
+                  Les montants présentés sont indicatifs. Le compte courant
+                  d&apos;associé sera notamment ajusté en fonction du capital
+                  restant dû réel au jour de l&apos;opération. Toute reprise de
+                  la structure et de son financement reste soumise aux audits et
+                  accords nécessaires.
                 </p>
               </div>
             </div>
@@ -412,12 +402,12 @@ export default function AcquisitionSCI() {
               Recevoir le dossier juridique &amp; financier
             </a>
             <div className="flex flex-col items-center gap-1.5">
-              <a href="#contact-frederic" className="btn-secondary">
+              <a href="#contact-proprietaire" className="btn-secondary">
                 <User size={18} />
-                Échanger avec Frédéric Lejour
+                Contacter le propriétaire
               </a>
               <span className="text-navy-300 text-xs">
-                Chargé de la commercialisation du 203
+                Jean-Charles Orozco · Propriétaire du 203
               </span>
             </div>
           </div>

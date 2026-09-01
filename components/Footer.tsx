@@ -10,34 +10,17 @@ const legalText = `MENTIONS LÉGALES
 
 Le présent site est édité par :
 
-Lejour Consulting
-Représenté par Frédéric Lejour
-Kirchstrasse 37
-55218 Ingelheim am Rhein
-Allemagne
+Jean-Charles Orozco
+203 Cours Cardinal Bertrand de Montfavet
+84140 Avignon
+France
 
-Email : frederic.lejour@lejourconsulting.com
-Téléphone : +33 6 52 64 68 90
-
-Activité
-
-Lejour Consulting exerce une activité de conseil, accompagnement commercial et transaction immobilière.
-
-Informations réglementaires
-
-Titulaire du récépissé de Libre Prestation de Services immobilier en France n° LPS75012025000000015 délivré par la CCI Paris Île-de-France, valable jusqu'au 22/09/2026.
-
-Titulaire de la Carte Professionnelle Européenne d'Agent Immobilier n° 05-7511-z2T4 attribuée le 14/07/2021 par l'Union Européenne, valable jusqu'au 12/01/2026.
-
-Titulaire d'une licence de transaction immobilière allemande délivrée le 10/03/2021 par la Stadtverwaltung Ingelheim am Rhein.
-
-Assurance professionnelle
-
-Lejour Consulting est couvert par AXA Assurance au titre des risques professionnels liés à l'activité immobilière, contrat n° 60242463490/5M.
+Email : jeancharles.orozco@gmail.com
+Téléphone : +33 6 15 87 27 96
 
 Responsable de publication
 
-Frédéric Lejour.
+Jean-Charles Orozco.
 
 Propriété intellectuelle
 
@@ -55,11 +38,11 @@ Les données personnelles collectées via ce site peuvent inclure : nom, prénom
 
 Finalité
 
-Ces données sont utilisées uniquement pour répondre aux demandes de contact, transmettre le dossier d'acquisition, organiser une visite ou assurer le suivi commercial lié au projet Le 203 à Avignon-Montfavet.
+Ces données sont utilisées uniquement pour répondre aux demandes de contact, transmettre le dossier d'acquisition, organiser une visite ou assurer le suivi lié au projet Le 203 à Avignon-Montfavet.
 
 Destinataire
 
-Les données sont destinées exclusivement à Lejour Consulting. Elles ne sont ni vendues, ni louées, ni transmises à des tiers sans consentement préalable, sauf obligation légale.
+Les données sont destinées exclusivement à Jean-Charles Orozco. Elles ne sont ni vendues, ni louées, ni transmises à des tiers sans consentement préalable, sauf obligation légale.
 
 Durée de conservation
 
@@ -71,7 +54,7 @@ Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de s
 
 Pour exercer ces droits, vous pouvez écrire à :
 
-frederic.lejour@lejourconsulting.com
+jeancharles.orozco@gmail.com
 
 Cookies
 
@@ -168,25 +151,25 @@ export default function Footer() {
               <li className="flex items-center gap-2 text-sm">
                 <Phone size={14} className="text-gold-500 shrink-0" />
                 <a
-                  href="tel:+33652646890"
+                  href="tel:+33615872796"
                   onClick={() =>
                     trackEvent("phone_click", { link_location: "footer" })
                   }
                   className="hover:text-gold-400 transition-colors"
                 >
-                  +33 6 52 64 68 90
+                  +33 6 15 87 27 96
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Mail size={14} className="text-gold-500 shrink-0" />
                 <a
-                  href="mailto:frederic.lejour@lejourconsulting.com"
+                  href="mailto:jeancharles.orozco@gmail.com"
                   onClick={() =>
                     trackEvent("email_click", { link_location: "footer" })
                   }
                   className="hover:text-gold-400 transition-colors"
                 >
-                  frederic.lejour@lejourconsulting.com
+                  jeancharles.orozco@gmail.com
                 </a>
               </li>
             </ul>
@@ -195,7 +178,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            © {new Date().getFullYear()} Lejour Consulting. Tous droits réservés.
+            © {new Date().getFullYear()} Jean-Charles Orozco. Tous droits réservés.
           </p>
 
           <div className="flex items-center gap-6 text-xs text-white/30">

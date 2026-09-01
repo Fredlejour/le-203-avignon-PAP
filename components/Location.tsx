@@ -67,8 +67,8 @@ export default function Location() {
           >
             <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden relative group">
               <img
-                src="/images/devanture.webp"
-                alt="Façade du 203 — Cours Cardinal Bertrand de Montfavet, Avignon"
+                src="/images/facade 203.webp"
+                alt="Façade du 203 — locaux professionnels à Avignon-Montfavet"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -154,12 +154,12 @@ export default function Location() {
               Recevoir le dossier d&apos;acquisition
             </a>
             <div className="flex flex-col items-center gap-1.5">
-              <a href="#contact-frederic" className="btn-secondary">
+              <a href="#contact-proprietaire" className="btn-secondary">
                 <User size={18} />
-                Contacter Frédéric Lejour
+                Contacter le propriétaire
               </a>
               <span className="text-navy-300 text-xs">
-                Chargé de la commercialisation du 203
+                Jean-Charles Orozco · Propriétaire du 203
               </span>
             </div>
           </div>

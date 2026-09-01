@@ -88,14 +88,14 @@ export default function FinalCTA() {
           </a>
           <div className="flex flex-col items-center gap-1.5">
             <a
-              href="#contact-frederic"
+              href="#contact-proprietaire"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold text-sm tracking-wide uppercase rounded-sm hover:bg-white/10 transition-all duration-300"
             >
               <User size={18} />
-              Contacter Frédéric Lejour
+              Contacter le propriétaire
             </a>
             <span className="text-white/50 text-xs">
-              Chargé de la commercialisation du 203
+              Jean-Charles Orozco · Propriétaire du 203
             </span>
           </div>
         </div>

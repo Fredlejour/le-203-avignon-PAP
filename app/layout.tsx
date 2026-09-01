@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/devanture.webp",
+        url: "/images/facade 203.webp",
         width: 1729,
         height: 910,
         alt: "Le 203 — Centre professionnel pluridisciplinaire à Avignon-Montfavet",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Le 203 — Centre professionnel pluridisciplinaire à vendre",
     description:
       "193 m² professionnels aménagés et équipés à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
-    images: ["/images/devanture.webp"],
+    images: ["/images/facade 203.webp"],
   },
   robots: {
     index: true,
@@ -61,7 +61,7 @@ const jsonLd = {
   description:
     "Achetez un local professionnel de 193 m² déjà aménagé et équipé à Avignon-Montfavet. Murs, équipements, modèle économique et structure juridique existante.",
   url: "https://le-203-avignon.vercel.app",
-  image: "/images/devanture.webp",
+  image: "/images/facade 203.webp",
   address: {
     "@type": "PostalAddress",
     streetAddress: "203 Cours Cardinal Bertrand de Montfavet",
@@ -78,7 +78,7 @@ const jsonLd = {
   offers: {
     "@type": "Offer",
     priceCurrency: "EUR",
-    price: "271660",
+    price: "288660",
     availability: "https://schema.org/InStock",
   },
 };
